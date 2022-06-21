@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <RelativeLayout
+        android:id="@+id/frame9"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:background="@drawable/border_frame"
+        tools:context=".ui.activity.ImageCanvasActivity">
+
+        <RelativeLayout
+            android:id="@+id/nineth_frame_relative"
+            android:layout_width="match_parent"
+
+            android:layout_height="350dp">
+
+            <RelativeLayout
+                android:id="@+id/bottom_seventh_frame_main_relative"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="1dp"
+                android:paddingRight="1dp">
+
+                <RelativeLayout
+                    android:id="@+id/ninenth_bottom_relative"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_alignParentBottom="true"
+                    android:background="#8d61ff">
+
+                    <RelativeLayout
+                        android:id="@+id/bottom_fifth_frame_linear"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal"
+
+                        android:paddingLeft="@dimen/dimen_10dp"
+                        android:paddingRight="@dimen/dimen_10dp">
+
+                        <RelativeLayout
+                            android:id="@+id/website_main_relative"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true">
+
+                            <ImageView
+                                android:id="@+id/footer_website_image"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:src="@drawable/ic_website"
+                                android:tint="@color/white" />
+
+                            <com.brandshaastra.utils.CustomTextViewBold
+                                android:id="@+id/business_website_details"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:layout_toRightOf="@+id/footer_website_image"
+                                android:ellipsize="end"
+                                android:paddingLeft="@dimen/dimen_5dp"
+                                android:singleLine="true"
+                                android:text="www.google.com"
+                                android:textColor="@color/white"
+                                android:textSize="@dimen/size_9dp" />
+                        </RelativeLayout>
+
+
+                        <RelativeLayout
+                            android:id="@+id/call_main_relative"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:layout_toLeftOf="@+id/business_logo_relative"
+                            android:layout_toRightOf="@+id/website_main_relative"
+                            android:gravity="center">
+
+                            <ImageView
+                                android:id="@+id/footer_call_image"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:src="@drawable/ic_call"
+                                android:tint="@color/white" />
+
+                            <com.brandshaastra.utils.CustomTextViewBold
+                                android:id="@+id/business_call_details"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerVertical="true"
+                                android:layout_toRightOf="@+id/footer_call_image"
+                                android:ellipsize="end"
+                                android:maxLength="10"
+                                android:paddingLeft="@dimen/dimen_5dp"
+                                android:singleLine="true"
+                                android:text="1234567890"
+                                android:textColor="@color/white"
+                                android:textSize="@dimen/size_9dp" />
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:id="@+id/business_logo_relative"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginLeft="@dimen/size_15dp">
+
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                app:cardBackgroundColor="#8d61ff"
+                                app:cardCornerRadius="@dimen/dimen_5dp"
+                                app:cardElevation="0dp">
+
+                                <RelativeLayout
+                                    android:layout_width="30dp"
+                                    android:layout_height="match_parent"
+                                    android:background="@drawable/frame_9_curved_bg">
+
+                                    <ImageView
+                                        android:id="@+id/business_icon"
+                                        android:layout_width="30dp"
+                                        android:layout_height="match_parent"
+                                        android:layout_alignParentRight="true"
+                                        android:scaleType="fitXY"
+                                        android:src="@drawable/brand_shaastra_logo" />
+
+                                </RelativeLayout>
+
+                            </androidx.cardview.widget.CardView>
+                        </RelativeLayout>
+
+                    </RelativeLayout>
+                </RelativeLayout>
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</layout>

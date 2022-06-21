@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/clicking"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_margin="@dimen/dimen_20dp"
+    android:padding="@dimen/dimen_10dp"
+    app:cardBackgroundColor="#141430"
+    app:cardCornerRadius="@dimen/dimen_10dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/relative_curved_simple_10dp"
+        android:padding="@dimen/dimen_10dp">
+
+        <com.brandshaastra.utils.CustomTextViewBold
+            android:id="@+id/home_sub_recycler_name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="marquee"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:freezesText="true"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:scrollHorizontally="true"
+            android:singleLine="true"
+            android:text="Festivals"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_16" />
+
+        <com.brandshaastra.utils.CircleImageView
+            android:id="@+id/home_sub_recycler_img"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_below="@+id/home_sub_recycler_name"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/dimen_10dp"
+            android:background="@drawable/rounded_border"
+            android:padding="@dimen/size_2dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/home_sub_recycler_img"
+            android:layout_marginTop="@dimen/dimen_10dp"
+            android:labelFor="@+id/home_sub_recycler_img"
+            android:src="@drawable/ic__right_double_line_arrow" />
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

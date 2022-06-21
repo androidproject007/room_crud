@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#09071C"
+        tools:context=".ui.BaseActivity">
+
+        <RelativeLayout
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/theme_color">
+            <!--android:background="#F68D00"-->
+            <com.brandshaastra.utils.CircleImageView
+                android:id="@+id/business_pic"
+                android:layout_width="@dimen/dimen_35dp"
+                android:layout_height="@dimen/dimen_35dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/dimen_10dp"
+                android:padding="@dimen/dimen_5dp"
+                android:src="@drawable/image_gallery" />
+
+            <RelativeLayout
+                android:id="@+id/home_business_relative"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:layout_marginLeft="@dimen/dimen_5dp"
+                android:layout_toLeftOf="@+id/home_notification"
+                android:layout_toRightOf="@+id/business_pic">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="?attr/actionBarSize"
+                    android:orientation="vertical">
+
+                    <com.brandshaastra.utils.CustomTextViewBold
+                        android:id="@+id/business_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingLeft="@dimen/dimen_5dp"
+                        android:paddingTop="@dimen/dimen_5dp"
+                        android:text="Your Business"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/dimen_12dp" />
+
+                    <com.brandshaastra.utils.CustomTextViewBold
+                        android:id="@+id/business_dialog"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/dimen_5dp"
+                        android:drawableRight="@drawable/ic__down_arrow"
+                        android:drawablePadding="@dimen/dimen_10dp"
+                        android:paddingLeft="@dimen/dimen_5dp"
+                        android:text="aHVSSAH ASAS"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/dimen_12dp" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/dimen_10dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/demo"
+                    android:layout_width="@dimen/dimen_30dp"
+                    android:layout_height="?attr/actionBarSize"
+                    android:layout_alignStart="@id/home_notification"
+                    android:layout_marginRight="@dimen/size_15dp"
+                    android:src="@drawable/ic_baseline_videocam_24"
+                    android:tint="@color/white" />
+
+                <ImageView
+                    android:id="@+id/home_notification"
+                    android:layout_width="wrap_content"
+                    android:layout_height="?attr/actionBarSize"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="@dimen/dimen_10dp"
+                    android:src="@drawable/ic__notification"
+                    android:tint="@color/white" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/bottomnavigation"
+            android:layout_below="@+id/toolbar"
+            android:nestedScrollingEnabled="false"
+            android:overScrollMode="never"
+            android:scrollbars="none">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.gigamole.infinitecycleviewpager.HorizontalInfiniteCycleViewPager
+                    android:id="@+id/horizontalcardviewpager"
+                    android:layout_width="match_parent"
+                    android:layout_height="230dp"
+                    app:icvp_center_page_scale_offset="30dp"
+                    app:icvp_max_page_scale="0.8"
+                    app:icvp_medium_scaled="true"
+                    app:icvp_min_page_scale="0.5"
+                    app:icvp_min_page_scale_offset="5dp"
+                    app:icvp_scroll_duration="1850"></com.gigamole.infinitecycleviewpager.HorizontalInfiniteCycleViewPager>
+
+                <androidx.viewpager.widget.ViewPager
+                    android:id="@+id/pagerhome"
+                    android:layout_width="match_parent"
+                    android:layout_height="180dp"
+                    android:layout_marginLeft="11dp"
+                    android:layout_marginTop="@dimen/dimen_10dp"
+                    android:layout_marginRight="13dp"
+                    android:background="@drawable/custom_card_relative_background"
+                    android:scrollbars="none"
+                    android:visibility="gone" />
+
+                <com.afollestad.viewpagerdots.DotsIndicator
+                    android:id="@+id/dots"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/size_24"
+                    android:layout_alignBottom="@id/pagerhome"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginRight="13dp"
+                    android:layout_marginBottom="@dimen/size_15dp"
+                    android:visibility="gone"
+                    app:dot_tint="@color/white" />
+
+                <com.brandshaastra.utils.CustomTextViewBold
+                    android:id="@+id/home_business_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/horizontalcardviewpager"
+                    android:layout_marginLeft="@dimen/dimen_10dp"
+                    android:layout_marginTop="@dimen/text_size_20"
+                    android:text="Custom Image"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_size_16"
+                    android:visibility="gone" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/home_first_recyclerview"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/home_business_name"
+                    android:layout_marginTop="@dimen/dimen_10dp"
+                    android:overScrollMode="never"
+                    android:scrollbars="none" />
+
+                <RelativeLayout
+                    android:id="@+id/home_recycle_relative"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/home_first_recyclerview">
+
+                    <com.brandshaastra.utils.CustomTextViewBold
+                        android:id="@+id/home_recycle_business_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/dimen_10dp"
+                        android:layout_toLeftOf="@+id/home_recycle_view_all"
+                        android:text="All Category"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/text_size_16" />
+
+                    <com.brandshaastra.utils.CustomTextViewBold
+                        android:id="@+id/home_recycle_view_all"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:paddingRight="@dimen/dimen_10dp"
+                        android:text="View All"
+                        android:textColor="@color/theme_color"
+                        android:textSize="@dimen/text_size_16"
+                        android:visibility="gone" />
+                </RelativeLayout>
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/home_recyclerview"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/home_recycle_relative"
+                    android:overScrollMode="never"
+                    android:scrollbars="none" />
+
+            </RelativeLayout>
+        </ScrollView>
+
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottomnavigation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="#09071C"
+            app:itemIconTint="@drawable/bottom_navigationview_bg"
+            app:itemTextColor="@drawable/bottom_navigationview_bg"
+            app:labelVisibilityMode="labeled"
+            app:menu="@menu/menu" />
+
+    </RelativeLayout>
+</layout>

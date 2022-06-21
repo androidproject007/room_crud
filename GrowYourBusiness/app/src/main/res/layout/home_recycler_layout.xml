@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/dimen_10dp">
+
+    <RelativeLayout
+        android:id="@+id/home_recycle_relative"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.brandshaastra.utils.CustomTextViewBold
+            android:id="@+id/home_recycle_business_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Custom Image"
+            android:layout_marginLeft="@dimen/dimen_10dp"
+            android:textColor="@color/white"
+            android:layout_toLeftOf="@+id/home_recycle_view_all"
+            android:textSize="@dimen/text_size_16"/>
+        <com.brandshaastra.utils.CustomTextViewBold
+            android:id="@+id/home_recycle_view_all"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="View All"
+            android:paddingRight="@dimen/dimen_10dp"
+            android:layout_alignParentRight="true"
+            android:textColor="@color/theme_color"
+            android:textSize="@dimen/text_size_16"/>
+    </RelativeLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/home_recycle_rv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/home_recycle_relative"
+        android:layout_marginTop="@dimen/dimen_10dp"/>
+</RelativeLayout>

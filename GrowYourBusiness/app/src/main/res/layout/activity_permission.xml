@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/services_permission">
+
+    <LinearLayout
+        android:id="@+id/locationper_linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/dimen_30dp"
+        android:paddingRight="@dimen/dimen_30dp">
+
+        <com.brandshaastra.utils.CustomTextViewBold
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="50dp"
+            android:gravity="center"
+            android:text="@string/location_services1"
+            android:textSize="@dimen/text_size_20"
+            android:visibility="invisible"/>
+
+        <com.brandshaastra.utils.CustomTextViewBold
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="130dp"
+            android:gravity="center"
+            android:textColor="@color/pink_color"
+            android:text="@string/location_services1"
+            android:textSize="@dimen/text_size_20" />
+
+        <com.brandshaastra.utils.CustomTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/location_screen_txt1"
+            android:textColor="@color/dark_blue_color"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/text_size_20"/>
+
+        <com.brandshaastra.utils.CustomTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+
+            android:text="@string/location_screen_txt2"
+            android:textColor="@color/dark_blue_color"
+            android:layout_marginTop="@dimen/dimen_10dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/btnlocationapprove"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/upload_img_btn"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <com.brandshaastra.utils.CustomTextViewBold
+            android:id="@+id/laycancel_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/dimen_10dp"
+            android:paddingTop="15dp"
+            android:paddingRight="@dimen/dimen_10dp"
+            android:paddingBottom="15dp"
+            android:singleLine="true"
+            android:text="@string/enable_location_services"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</RelativeLayout>

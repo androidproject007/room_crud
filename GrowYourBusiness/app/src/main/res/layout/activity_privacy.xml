@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/off_white"
+        tools:context=".ui.activity.Terms">
+
+        <RelativeLayout
+            android:id="@+id/header"
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize"
+            android:background="@color/white">
+
+            <com.brandshaastra.utils.CustomTextViewBold
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/terms_of_use"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="15dp" />
+
+            <RelativeLayout
+                android:id="@+id/rlclose"
+                android:layout_width="45dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_baseline_close_24" />
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <WebView
+            android:id="@+id/mWebView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/header"></WebView>
+    </RelativeLayout>
+
+</layout>

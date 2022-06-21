@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="@dimen/dimen_10dp"
+    android:layout_margin="@dimen/dimen_10dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/relative_curved_simple_10dp">
+
+        <com.brandshaastra.utils.CustomTextViewBold
+            android:id="@+id/category_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black_trasp"
+            android:padding="@dimen/dimen_10dp"
+            android:textSize="@dimen/text_size_16"
+            android:text="Festivals"/>
+
+        <CircleImageView
+            android:id="@+id/category_image"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_below="@+id/category_item"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="@dimen/dimen_10dp"
+            android:padding="@dimen/size_2dp"
+            android:background="@drawable/rounded_border"
+            android:src="@color/black" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/black"
+            android:layout_margin="@dimen/dimen_10dp"
+            android:layout_below="@+id/category_image"/>
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

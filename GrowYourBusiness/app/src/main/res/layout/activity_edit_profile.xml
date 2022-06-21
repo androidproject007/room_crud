@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/activity_bg_color">
+
+        <RelativeLayout
+            android:id="@+id/edit_profile_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize"
+            android:background="@color/blue_color"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/edit_back_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/text_size_20"
+                android:layout_marginRight="30dp"
+                android:src="@drawable/ic_baseline_arrow_back_24" />
+
+            <com.brandshaastra.utils.CustomTextView
+                style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/save"
+                android:layout_toRightOf="@+id/edit_back_btn"
+                android:text="@string/app_name"
+                android:textColor="@color/white"
+                android:textSize="15dp" />
+
+            <LinearLayout
+                android:id="@+id/save"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:gravity="center_vertical">
+
+                <com.brandshaastra.utils.CustomTextViewBold
+                    style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:paddingRight="@dimen/dimen_10dp"
+                    android:text="SAVE"
+                    android:textColor="@color/white"
+                    android:textSize="15dp" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/edit_profile_toolbar"
+            android:gravity="center"
+            android:orientation="vertical"
+            tools:context=".ui.activity.EditProfileActivity">
+
+            <com.brandshaastra.utils.CircleImageView
+                android:id="@+id/edit_profile_img"
+                android:layout_width="@dimen/dimen_150"
+                android:layout_height="@dimen/dimen_150"
+                android:layout_centerInParent="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="@dimen/dimen_10dp"
+                android:padding="@dimen/dimen_10dp"
+                android:src="@drawable/brand_shaastra_logo"
+                app:civ_border_color="@color/white"
+                app:civ_border_width="3dp" />
+
+            <com.brandshaastra.utils.CustomEditText
+                android:id="@+id/edit_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/account_img"
+                android:layout_marginLeft="@dimen/text_size_20"
+                android:layout_marginTop="@dimen/dimen_20dp"
+                android:layout_marginRight="@dimen/text_size_20"
+                android:background="@drawable/rounded_corner_edittext_bg"
+                android:gravity="center"
+                android:hint="Business Name"
+                android:padding="@dimen/text_size_15"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</layout>

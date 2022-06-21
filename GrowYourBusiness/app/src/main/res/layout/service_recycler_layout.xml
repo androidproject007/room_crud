@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="@dimen/dimen_5dp"
+        android:paddingBottom="@dimen/dimen_10dp"
+        android:layout_margin="@dimen/dimen_10dp"
+        app:cardElevation="0dp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/curved_relative_white_layout">
+
+            <ImageView
+                android:id="@+id/service_recycle_img"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@color/blue_color"/>
+            <RelativeLayout
+                android:id="@+id/service_recycle_relative"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/size_100dp"
+                android:layout_below="@+id/service_recycle_img"
+                android:paddingTop="@dimen/dimen_30dp"
+                android:paddingLeft="@dimen/dimen_10dp"
+                android:paddingRight="@dimen/dimen_10dp"
+                android:paddingBottom="@dimen/dimen_10dp">
+
+                <com.brandshaastra.utils.CustomTextView
+                    android:id="@+id/service_description"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/service_recycle_price"
+                    android:layout_marginBottom="@dimen/dimen_10dp"/>
+                <com.brandshaastra.utils.CustomTextViewBold
+                    android:id="@+id/service_recycle_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="699.00"
+                    android:textColor="@color/blue_color"
+                    android:textSize="@dimen/text_size_16"
+                    android:layout_alignParentBottom="true"/>
+                <com.brandshaastra.utils.CustomTextViewBold
+                    android:id="@+id/service_recycle_strike"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/service_recycle_price"
+                    android:layout_marginLeft="@dimen/dimen_10dp"
+                    android:layout_alignParentBottom="true"
+                    android:text="699.00"
+                    android:textColor="@color/gray"
+                    android:textSize="@dimen/text_size_16"/>
+            </RelativeLayout>
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

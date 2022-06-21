@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#09071C"
+        android:gravity="center_vertical"
+        tools:context=".video.VideoPreviewActivity">
+
+
+        <TextureView
+            android:id="@+id/videoPreview"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:layout_margin="@dimen/dimen_10dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/share"
+            style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/videoPreview"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/dimen_10dp"
+            android:gravity="center"
+            android:padding="@dimen/dimen_10dp"
+            android:text="Share"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+</layout>

@@ -1,0 +1,233 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@drawable/ic_grey_bg"
+            android:visibility="gone" />
+
+        <RelativeLayout
+            android:id="@+id/background_layout_statusbar"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@drawable/ic_grey_bg"
+            android:tint="@color/blue_color"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="@drawable/ic_grey_bg"
+                android:visibility="gone"
+                />
+
+            <com.brandshaastra.utils.CustomTextViewBold
+                android:id="@+id/heading_text"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="-30dp"
+                android:gravity="center_vertical"
+                android:padding="17dp"
+                android:text="@string/welcome_to_kamaii"
+                android:textColor="@color/white"
+                android:textSize="23dp" />
+        </RelativeLayout>
+
+        <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/background_layout_statusbar"
+            android:orientation="vertical"
+            tools:context=".ui.activity.CheckSignInActivity">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/lay"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="35dp"
+                    android:layout_marginBottom="25dp"
+                    android:orientation="vertical"
+                    android:paddingLeft="18dp"
+                    android:paddingRight="@dimen/dimen_30dp">
+
+
+                    <ImageView
+                        android:id="@+id/ivLogo"
+                        android:layout_width="250dp"
+                        android:layout_height="100dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="@dimen/dimen_30dp"
+                        android:visibility="gone" />
+
+
+                    <com.brandshaastra.utils.CustomTextViewBold
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="@string/hello_nice_to_meet_you"
+                        android:textSize="15dp"
+                        android:textStyle="bold"
+                        android:visibility="visible" />
+
+                    <com.brandshaastra.utils.CustomTextViewBold
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="@string/join_our_kamaii_partner"
+                        android:textSize="25dp"
+
+                        android:textStyle="bold"
+                        android:visibility="visible" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/LLsign"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:padding="18dp"
+                    android:layout_marginTop="@dimen/text_size_20">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <!--<com.kamaii.fabcustomer.utils.CustomEditText
+                            android:id="@+id/CETemailadd"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:layout_marginTop="15dp"
+                            android:background="@drawable/edittext_background"
+                            android:hint="@string/email_address1"
+                            android:inputType="textEmailAddress"
+                            android:paddingLeft="20dp"
+                            android:singleLine="true"
+                            android:text=""
+                            android:textColor="@color/black"
+                            android:textColorHint="@color/editketext" />-->
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="2dp"
+                            android:layout_marginTop="10dp"
+                            android:text="10 digit mobile number"
+                            android:textColor="@color/light_gray"
+                            android:textSize="15dp"
+                            android:textStyle="bold"
+                            android:visibility="gone" />
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="3dp"
+                            android:padding="5dp"
+                            app:cardCornerRadius="@dimen/dimen_5dp"
+                            app:cardElevation="2dp">
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="@drawable/rounded_corner_edittext_bg">
+
+                                <ImageView
+                                    android:id="@+id/india_flag"
+                                    android:layout_width="35dp"
+                                    android:layout_height="35dp"
+                                    android:layout_centerVertical="true"
+                                    android:paddingStart="15dp"
+                                    android:src="@drawable/emailnew" />
+
+                                <com.brandshaastra.utils.CustomTextView
+                                    android:id="@+id/country_code"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_centerVertical="true"
+                                    android:layout_gravity="center_vertical"
+                                    android:layout_marginTop="5dp"
+                                    android:layout_toEndOf="@id/india_flag"
+                                    android:drawablePadding="10dp"
+                                    android:gravity="center_vertical"
+                                    android:paddingStart="5dp"
+                                    android:paddingTop="19dp"
+                                    android:textSize="18dp"
+                                    android:visibility="gone"
+                                    android:paddingEnd="7dp"
+                                    android:paddingBottom="15dp"
+                                    android:text="+91" />
+
+                                <com.brandshaastra.utils.CustomEditText
+                                    android:id="@+id/CETemailadd"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_toEndOf="@id/country_code"
+                                    android:background="@android:color/transparent"
+                                    android:drawablePadding="10dp"
+                                    android:hint="@string/email_address"
+                                    android:inputType="textEmailAddress"
+                                    android:maxLength="30"
+                                    android:paddingStart="15dp"
+                                    android:paddingTop="15dp"
+                                    android:paddingEnd="15dp"
+                                    android:paddingBottom="15dp"
+                                    android:singleLine="true"
+                                    android:text=""
+                                    android:textColor="@color/black"
+                                    android:textColorHint="#9c9ca1"
+                                    android:textSize="18dp"
+                                    android:textStyle="bold">
+
+                                    <requestFocus />
+                                </com.brandshaastra.utils.CustomEditText>
+                            </RelativeLayout>
+                        </androidx.cardview.widget.CardView>
+
+                        <com.brandshaastra.utils.CustomTextViewBold
+                            android:id="@+id/CBsignIn"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="@dimen/dimen_30dp"
+                            android:background="@drawable/login_custom_button"
+                            android:drawableEnd="@drawable/ic_login_arrow_white"
+                            android:gravity="start|center_vertical"
+                            android:paddingStart="25dp"
+                            android:paddingTop="15dp"
+                            android:paddingEnd="25dp"
+                            android:paddingBottom="15dp"
+                            android:text="@string/login"
+                            android:textAllCaps="false"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"
+                            android:textColor="@color/white"
+                            android:textSize="15sp" />
+
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginRight="@dimen/dimen_30dp"
+            android:background="@drawable/background_layout_footer"
+            android:visibility="gone"/>
+    </RelativeLayout>
+
+</layout>

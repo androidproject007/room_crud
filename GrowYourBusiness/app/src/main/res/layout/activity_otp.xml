@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        tools:context="com.brandshaastra.ui.activity.SignUpActivity">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <RelativeLayout
+            android:id="@+id/background_layout_statusbar"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@drawable/ic_grey_bg"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="@drawable/ic_grey_bg"
+                android:visibility="gone" />
+
+            <com.brandshaastra.utils.CustomTextViewBold
+                android:id="@+id/heading_text"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_marginTop="-30dp"
+                android:gravity="center_vertical"
+                android:padding="17dp"
+                android:text="@string/welcome_to_kamaii"
+                android:textColor="@color/white"
+                android:textSize="23dp" />
+        </RelativeLayout>
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/RRsncbar"
+            android:layout_below="@+id/background_layout_statusbar"
+            android:fillViewport="true"
+            android:padding="0dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <com.brandshaastra.utils.CustomTextViewBold
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/ivLogo"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:text="You are register with partner is sucessfully done."
+                    android:textColor="@color/green"
+                    android:textSize="20.0dip"
+                    android:visibility="gone" />
+
+                <!-- <com.Kamaii.fabcustomer.utils.CustomTextViewBold
+                     android:layout_gravity="center"
+                     android:layout_centerInParent="true"
+                     android:layout_weight="1"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:gravity="center"
+                     android:layout_below="@+id/ivLogo"
+                     android:text="Verify Mobile No"
+                     android:textColor="@color/green"
+                     android:textSize="20.0dip" />-->
+
+                <LinearLayout
+                    android:id="@+id/lay"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="35dp"
+                    android:layout_marginBottom="15dp"
+                    android:orientation="vertical"
+                    android:paddingLeft="18dp"
+                    android:paddingRight="@dimen/dimen_30dp">
+
+
+                    <ImageView
+                        android:id="@+id/ivLogo"
+                        android:layout_width="250dp"
+                        android:layout_height="100dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="@dimen/dimen_30dp"
+                        android:visibility="gone" />
+
+
+                    <com.brandshaastra.utils.CustomTextViewBold
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="@string/phone_number_verification"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"
+                        android:textStyle="bold"
+                        android:visibility="gone" />
+
+                    <com.brandshaastra.utils.CustomTextViewBold
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="@string/please_enter_the_otp"
+                        android:textColor="@color/black"
+                        android:textSize="25dp"
+                        android:textStyle="bold"
+                        android:visibility="visible" />
+
+                    <com.brandshaastra.utils.CustomTextViewBold
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="@string/sent_to_your_registered_mobile_number"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"
+                        android:textStyle="bold"
+                        android:visibility="visible" />
+
+                    <com.brandshaastra.utils.CustomTextViewBold
+                        android:id="@+id/otp_txt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:text=""
+                        android:textColor="@color/black"
+                        android:textSize="16dp"
+                        android:textStyle="bold"
+                        android:visibility="visible" />
+
+                </LinearLayout>
+
+                <com.brandshaastra.utils.CustomTextView
+                    android:id="@+id/otp_txtstatic1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/ivLogo"
+                    android:layout_marginTop="40dp"
+                    android:gravity="center_horizontal"
+                    android:text="@string/otp_message"
+                    android:textColor="#424242"
+                    android:textSize="17sp"
+                    android:visibility="gone" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:visibility="gone">
+
+                    <com.brandshaastra.utils.CustomTextView
+                        android:id="@+id/otp_txtstatic2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="registered mobile number "
+                        android:textColor="#424242"
+                        android:textSize="17sp" />
+
+                    <com.brandshaastra.utils.CustomTextViewBold
+                        android:id="@+id/otp_txtold"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toEndOf="@id/otp_txtstatic2"
+                        android:textColor="#424242"
+                        android:textSize="17sp" />
+                </RelativeLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:clipToPadding="false"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center_horizontal"
+                        android:text="Enter 6-digit OTP"
+                        android:textColor="#979797"
+                        android:visibility="gone" />
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="18dp"
+                        android:layout_marginTop="3dp"
+                        android:layout_marginRight="18dp"
+                        android:padding="5dp"
+                        app:cardCornerRadius="@dimen/dimen_5dp"
+                        app:cardBackgroundColor="@color/white"
+                        app:cardElevation="2dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="18dp"
+                            android:layout_marginRight="18dp"
+                            android:background="@drawable/custom_card_relative_background">
+
+                            <com.brandshaastra.utils.CustomEditText
+                                android:id="@+id/otp_receieved"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:gravity="center"
+                                android:background="@drawable/custom_card_relative_background"
+                                android:hint=""
+                                android:inputType="number"
+                                android:letterSpacing="1.50"
+                                android:maxLength="6"
+                                android:paddingTop="10dp"
+                                android:paddingBottom="10dp"
+                                android:singleLine="true"
+                                android:textColor="@color/black"
+                                android:textColorHint="#9c9ca1"
+                                android:textSize="20dp">
+
+                                <requestFocus />
+                            </com.brandshaastra.utils.CustomEditText>
+                        </RelativeLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:orientation="horizontal"
+                        android:visibility="gone">
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:layout_width="44dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="15dp"
+                            android:textColorHint="@color/colorGrey"
+                            android:visibility="visible">
+
+                            <com.google.android.material.textfield.TextInputEditText
+                                android:id="@+id/edtotp0"
+                                android:layout_width="match_parent"
+                                android:layout_height="50dp"
+                                android:background="@drawable/otp_background"
+                                android:gravity="center"
+                                android:inputType="number"
+                                android:maxLength="1"
+                                android:textColor="@color/colorGrey2"
+                                android:textStyle="bold" />
+                        </com.google.android.material.textfield.TextInputLayout>
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:layout_width="44dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="15dp"
+                            android:textColorHint="@color/colorGrey"
+                            android:visibility="visible">
+
+                            <com.google.android.material.textfield.TextInputEditText
+                                android:id="@+id/edtotp1"
+                                android:layout_width="match_parent"
+                                android:layout_height="50dp"
+                                android:background="@drawable/otp_background"
+                                android:gravity="center"
+                                android:inputType="number"
+                                android:maxLength="1"
+                                android:textColor="@color/colorGrey2"
+                                android:textStyle="bold" />
+                        </com.google.android.material.textfield.TextInputLayout>
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:layout_width="44dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="15dp"
+                            android:textColorHint="@color/colorGrey"
+                            android:visibility="visible">
+
+                            <com.google.android.material.textfield.TextInputEditText
+                                android:id="@+id/edtotp2"
+                                android:layout_width="match_parent"
+                                android:layout_height="50dp"
+                                android:background="@drawable/otp_background"
+                                android:gravity="center"
+                                android:inputType="number"
+                                android:maxLength="1"
+                                android:textColor="@color/colorGrey2"
+
+                                android:textStyle="bold" />
+                        </com.google.android.material.textfield.TextInputLayout>
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:layout_width="44dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="15dp"
+                            android:textColorHint="@color/colorGrey"
+                            android:visibility="visible">
+
+                            <com.google.android.material.textfield.TextInputEditText
+                                android:id="@+id/edtotp3"
+                                android:layout_width="match_parent"
+                                android:layout_height="50dp"
+                                android:background="@drawable/otp_background"
+                                android:gravity="center"
+                                android:inputType="number"
+                                android:maxLength="1"
+                                android:textColor="@color/colorGrey2"
+                                android:textStyle="bold" />
+                        </com.google.android.material.textfield.TextInputLayout>
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:layout_width="44dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="15dp"
+                            android:textColorHint="@color/colorGrey"
+                            android:visibility="visible">
+
+                            <com.google.android.material.textfield.TextInputEditText
+                                android:id="@+id/edtotp4"
+                                android:layout_width="match_parent"
+                                android:layout_height="50dp"
+                                android:background="@drawable/otp_background"
+                                android:gravity="center"
+                                android:inputType="number"
+                                android:maxLength="1"
+                                android:textColor="@color/colorGrey2"
+
+                                android:textStyle="bold" />
+                        </com.google.android.material.textfield.TextInputLayout>
+
+                        <com.google.android.material.textfield.TextInputLayout
+                            android:layout_width="44dp"
+                            android:layout_height="wrap_content"
+                            android:textColorHint="@color/colorGrey"
+                            android:visibility="visible">
+
+                            <com.google.android.material.textfield.TextInputEditText
+                                android:id="@+id/edtotp5"
+                                android:layout_width="match_parent"
+                                android:layout_height="50dp"
+                                android:background="@drawable/otp_background"
+                                android:gravity="center"
+                                android:inputType="number"
+                                android:maxLength="1"
+                                android:textColor="@color/colorGrey2"
+                                android:textStyle="bold" />
+                        </com.google.android.material.textfield.TextInputLayout>
+                    </LinearLayout>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="10dp">
+
+                        <com.brandshaastra.utils.CustomTextView
+                            android:id="@+id/resend_text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="20dp"
+                            android:gravity="start"
+                            android:paddingLeft="18dp"
+                            android:text="@string/didn_t_receive_the_otp"
+                            android:textColor="@color/black"
+                            android:visibility="visible" />
+
+                        <com.brandshaastra.utils.CustomTextViewBold
+                            android:id="@+id/txt_resend"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="20dp"
+                            android:layout_toRightOf="@id/resend_text"
+                            android:gravity="start"
+                            android:paddingLeft="2dp"
+                            android:text="@string/resend_msg"
+                            android:textColor="@color/dark_blue_color"
+                            android:visibility="visible" />
+
+                        <ImageView
+                            android:id="@+id/CBsignIn"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:paddingRight="@dimen/dimen_10dp"
+                            android:src="@drawable/ic_grey_arrow_circle"
+                            android:text="VERIFY"
+                            android:textAllCaps="false"
+                            android:textAppearance="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"
+                            android:textColor="@color/white"
+                            android:textStyle="bold" />
+                    </RelativeLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="18dp"
+                    android:gravity="center_horizontal"
+                    android:visibility="gone">
+
+
+                    <TextView
+                        android:id="@+id/txt_timer"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/lllllll"
+                        android:text="Didn't receive the OTP? "
+                        android:textColor="#979797"
+                        android:textSize="@dimen/text_size_16" />
+
+                    <TextView
+                        android:id="@+id/txt_resendold"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/txt_timer"
+                        android:text="@string/resend_msg"
+                        android:textColor="@color/blue_color"
+                        android:textSize="@dimen/text_size_16" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/txt_resend_timer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/txt_timer"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/circuler_border"
+                    android:padding="@dimen/dimen_5dp"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_16"
+                    android:visibility="gone" />
+
+            </LinearLayout>
+
+
+        </ScrollView>
+
+        <RelativeLayout
+            android:id="@+id/RRsncbarr"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_alignParentBottom="true"></RelativeLayout>
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginRight="@dimen/dimen_30dp"
+            android:visibility="gone"
+            android:background="@drawable/background_layout_footer" />
+
+    </RelativeLayout>
+</layout>

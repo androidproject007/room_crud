@@ -1,0 +1,39 @@
+  {
+  "project_info": {
+    "project_number": "361250185125",
+    "project_id": "the-brand-shaastra",
+    "storage_bucket": "the-brand-shaastra.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:361250185125:android:c2784639be73bc9a6e124c",
+        "android_client_info": {
+          "package_name": "com.brandshaastra"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "361250185125-9bsd94oqam7v0f57vbivr2b4drakmmof.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBasAVH1DG3Ruv5bbODadWVv8JCRbLlCaU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "361250185125-9bsd94oqam7v0f57vbivr2b4drakmmof.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

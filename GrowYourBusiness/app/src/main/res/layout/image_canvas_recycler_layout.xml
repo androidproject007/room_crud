@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:background="@drawable/top_curved_card_bg">
+
+        <com.easystudio.rotateimageview.RotateZoomImageView
+            android:id="@+id/recycler_rotate_img"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:focusableInTouchMode="true"
+            android:visibility="gone"/>
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/image_canvas_recycle_img"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:scaleType="fitXY" />
+
+    <!--<RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:background="@drawable/top_curved_card_bg">-->
+
+    <com.easystudio.rotateimageview.RotateZoomImageView
+            android:id="@+id/recycler_rotate_img2"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:focusableInTouchMode="true"
+            android:layout_centerInParent="true"
+            android:visibility="gone"/>
+<!--
+    </RelativeLayout>
+-->
+</RelativeLayout>

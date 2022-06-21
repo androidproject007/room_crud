@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/dimen_10dp">
+
+        <ImageView
+            android:id="@+id/notification_img"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:padding="@dimen/dimen_10dp"
+            android:src="@drawable/ic_baseline_notifications_24"
+            android:tint="@color/theme_color"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/notification_img"
+            android:paddingLeft="@dimen/dimen_10dp"
+            android:layout_centerVertical="true"
+            android:orientation="vertical">
+
+            <com.brandshaastra.utils.CustomTextViewBold
+                android:id="@+id/notification_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Brand Up"
+                android:textColor="@color/white"
+                android:textSize="@dimen/dimen_20dp"
+                android:textStyle="bold" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/notification_name"
+                android:layout_marginTop="@dimen/dimen_5dp">
+
+                <com.brandshaastra.utils.CustomTextView
+                    android:id="@+id/notification_str"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/dimen_10dp"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_size_16" />
+
+                <com.brandshaastra.utils.CustomTextViewBold
+                    android:id="@+id/notification_status"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:textColor="@color/blue_color"
+                    android:textSize="@dimen/size_14sp"
+                    android:visibility="gone" />
+
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</layout>

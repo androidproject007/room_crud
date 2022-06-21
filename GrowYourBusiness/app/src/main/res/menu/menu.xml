@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_home"
+        android:title="Home" />
+    <item
+        android:id="@+id/nav_video"
+        android:icon="@drawable/ic_baseline_video_library_24"
+        android:title="Video" />
+    <item
+        android:id="@+id/nav_business"
+        android:icon="@drawable/ic__business"
+        android:title="Business" />
+    <item
+        android:id="@+id/nav_service"
+        android:icon="@drawable/service"
+        android:title="Service"
+        android:visible="false"/>
+    <item
+        android:id="@+id/nav_account"
+        android:icon="@drawable/ic_account"
+        android:title="Account" />
+</menu>

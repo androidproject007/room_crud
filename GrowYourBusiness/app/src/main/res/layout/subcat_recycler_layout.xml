@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/dimen_10dp"
+    android:layout_marginBottom="@dimen/dimen_10dp">
+
+    <ImageView
+        android:id="@+id/subcat_image"
+        android:layout_width="match_parent"
+        android:src="@drawable/whatsapp"
+        android:layout_height="@dimen/dimen_150" />
+
+    <com.brandshaastra.utils.CustomTextViewBold
+        android:id="@+id/subcat_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/subcat_image"
+        android:gravity="center_horizontal"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_size_16" />
+
+</RelativeLayout>

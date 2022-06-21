@@ -1,0 +1,98 @@
+<resources>
+    <string name="app_name">THE BRAND SHAASTRA</string>
+    <string name="select_business_type">Select Business Type</string>
+    <string name="add_your_business_logo">Add Your Business Logo</string>
+    <string name="personal_name">Personal Name</string>
+    <string name="title_activity_home_screen">HomeScreenActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="ok">OK</string>
+    <string name="location_services1">Use your Files</string>
+    <string name="enable_location_services">Enable All File Access</string>
+    <string name="location_screen_txt1">Brand Shaastra will use manage all files access permission to create the files and store the files in device storage.
+
+    </string>
+    <string name="location_screen_txt2">
+       To save the images/videos in device and share images/videos is the core feature of the application.</string>
+
+    <string name="cancel">Cancel</string>
+    <string name="please_wait">Please wait…</string>
+    <string name="sign_up">REGISTER</string>
+    <string name="by_creating_an_account_you_agree_to_our">By creating an account, you agree to our</string>
+    <string name="and">and</string>
+    <string name="agreed">Yes, I have read and agreed to </string>
+    <string name="terms_of_use">Terms of Use</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="full_name">Full Name</string>
+    <string name="email_address">Email Id</string>
+    <string name="email">Email</string>
+    <string name="create_kamaii_account">Create Account</string>
+    <string name="password">Password</string>
+    <string name="enter_your_mobile_number_to_continue_with_kamaii">Enter Your Mobile Number to Continue With Brand Shaastra</string>
+    <string name="login">Login</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="forgotten_password">Forgot Password?</string>
+    <string name="don_t_have_an_account">Don\'t have an account ?</string>
+    <string name="register_now">Register Now</string>
+    <string name="val_comment">Please enter comment</string>
+    <string name="val_email">Please enter valid email id.</string>
+    <string name="val_profile_pic">Please upload your profile image.</string>
+    <string name="val_mobile">Please enter Valid mobile No.</string>
+    <string name="val_pass">Password must contain at least six characters.</string>
+    <string name="val_name">Please enter name.</string>
+    <string name="val_address">Please enter valid address.</string>
+    <string name="val_c_name">Please enter company name.</string>
+    <string name="internet_concation">Please enable your internet connection.</string>
+    <string name="trms_acc">Please accept Terms of Use and Privacy Policy</string>
+    <string name="welcome_to_kamaii">Welcome to Brand Shaastra</string>
+    <string name="join_our_kamaii_partner">Join the Brand Shaastra!</string>
+    <string name="no">NO</string>
+    <string name="resend_msg">Resend OTP?</string>
+    <string name="sent_to_your_registered_mobile_number">sent to your registered email id</string>
+    <string name="please_enter_the_otp">Please enter the OTP</string>
+    <string name="phone_number_verification">Phone Number Verification</string>
+    <string name="didn_t_receive_the_otp">Didn\'t receive the OTP?</string>
+    <string name="close_msg">Are your sure you want to close the App?</string>
+    <string name="yes">YES!</string>
+    <string name="basic_information">Business Information</string>
+    <string name="hello_kamaii">Hello,</string>
+    <string name="you_are_few_step_away_from_comleting_your_profile">You are few step away from completing your profile</string>
+    <string name="msg_camera_storage_setting">Linebully requires to access camera service so you can upload best pictures, Turn on camera and storage permission from setting.</string>
+    <string name="open_settings">OPEN SETTINGS</string>
+    <string name="msg_permission_rationale">Linebully requires to access camera service so you can upload best pictures, Turn on camera and storage permission from setting.</string>
+    <string name="settings">Settings</string>
+    <string name="choose_video">Choose Video</string>
+    <string name="take_photo">Take Photo</string>
+    <string name="take_Video">Take Video</string>
+    <string name="choose_from_gallery">Choose from Gallery</string>
+    <string name="choose_image">Choose Image</string>
+    <string name="take_video">Take Video</string>
+    <string name="hello_nice_to_meet_you">Hello, nice to meet you!</string>
+
+    <string name="logout_msg">Are you sure you want to logout?</string>
+
+    <string name="didn_t_have_any_account">Don\'t have account?</string>
+    <string name="do_you_have_an_account_already">Do you have and account already?</string>
+    <string name="val_money">Please enter money to add..</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="componey_name">Enter Company Name</string>
+    <string name="enter_componey_address">Enter City</string>
+    <string name="enter_designation">Enter Designation</string>
+    <string name="enter_company_website_optional">Enter Company Website (Optional)</string>
+    <string name="company_follow_us">Company Follow Us</string>
+    <string name="company_description">Company Description</string>
+    <string name="enter_description">Enter Description</string>
+    <string name="submit">SUBMIT</string>
+    <string name="enter_componey_email_address">Enter Company Email Address</string>
+    <string name="designation">Enter Designation</string>
+    <string name="enter_referral_code">Enter Referral Code</string>
+
+    <string name="MainFolderName">VEditor</string>
+    <string name="PhotoToVideo">PhotoToVideo</string>
+</resources>

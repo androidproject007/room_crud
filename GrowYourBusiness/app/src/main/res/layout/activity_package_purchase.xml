@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        tools:context=".ui.activity.PackagePurchaseActivity">
+
+        <RelativeLayout
+            android:id="@+id/first_rel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <ImageView
+                android:id="@+id/business_rv_img"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/brand_shaastra_logo" />
+
+        <com.brandshaastra.utils.CustomTextViewBold
+            android:id="@+id/package_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/business_rv_img"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="@dimen/dimen_10dp"
+            android:gravity="center_horizontal"
+            android:text=""
+            android:textSize="@dimen/text_size_16" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/second_rel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/first_rel"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp">
+
+        <com.brandshaastra.utils.CustomEditText
+            android:id="@+id/applay_etx"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/applay_btn" />
+
+        <com.brandshaastra.utils.CustomTextViewBold
+            android:id="@+id/applay_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/dimen_10dp"
+            android:background="@drawable/button_bg"
+            android:padding="@dimen/dimen_5dp"
+            android:text="Apply"
+            android:textColor="@color/white" />
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:id="@+id/third_linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/second_rel"
+        android:layout_marginTop="@dimen/dimen_10dp"
+        android:orientation="vertical">
+
+        <com.brandshaastra.utils.CustomTextViewBold
+            android:id="@+id/billing_title"
+            style="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/dimen_10dp"
+            android:text="Billing Details"
+            android:textColor="@color/dark_blue_color" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/light_gray" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.brandshaastra.utils.CustomTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@+id/package_amt_txt"
+                android:padding="@dimen/dimen_10dp"
+                android:text="Package Amount"
+                android:textSize="@dimen/size_14sp" />
+
+            <com.brandshaastra.utils.CustomTextView
+                android:id="@+id/package_amt_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:padding="@dimen/dimen_10dp"
+                android:textColor="@color/dark_blue_color" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.brandshaastra.utils.CustomTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@+id/discount_amt_txt"
+                android:padding="@dimen/dimen_10dp"
+                android:text="Discount"
+                android:textSize="@dimen/size_14sp" />
+
+            <com.brandshaastra.utils.CustomTextView
+                android:id="@+id/discount_amt_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:padding="@dimen/dimen_10dp"
+                android:textColor="@color/green" />
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.brandshaastra.utils.CustomTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@+id/tax_amt_txt"
+                android:padding="@dimen/dimen_10dp"
+                android:text="Tax(18%)"
+                android:textSize="@dimen/size_14sp" />
+
+            <com.brandshaastra.utils.CustomTextView
+                android:id="@+id/tax_amt_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:padding="@dimen/dimen_10dp" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/light_gray" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.brandshaastra.utils.CustomTextViewBold
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@+id/total_amt_txt"
+                android:padding="@dimen/dimen_10dp"
+                android:text="Total Amount"
+                android:textSize="@dimen/size_14sp" />
+
+            <com.brandshaastra.utils.CustomTextViewBold
+                android:id="@+id/total_amt_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:padding="@dimen/dimen_10dp"
+                android:textColor="@color/dark_blue_color" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <com.brandshaastra.utils.CustomTextViewBold
+        android:id="@+id/purchase_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/third_linear"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/text_size_20"
+        android:background="@drawable/login_custom_button"
+        android:paddingLeft="@dimen/dimen_20dp"
+        android:textColor="@color/white"
+        android:paddingTop="@dimen/dimen_10dp"
+        android:paddingRight="@dimen/dimen_20dp"
+        android:paddingBottom="@dimen/dimen_10dp"
+        android:text="Purchase" />
+</RelativeLayout></layout>

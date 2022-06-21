@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Harshil Work/BrandShaastra 11-11-21/GrowYourBusiness/app/src/main/res/drawable/simple_curved_relative_5dp.xml" value="0.25462962962962965" />
+        <entry key="..\:/Harshil Work/BrandShaastra 11-11-21/GrowYourBusiness/app/src/main/res/layout/activity_image_canvas.xml" value="0.21203703703703702" />
+        <entry key="..\:/Harshil Work/BrandShaastra 11-11-21/GrowYourBusiness/app/src/main/res/layout/activity_package_purchase.xml" value="0.13272543059777103" />
+        <entry key="..\:/Harshil Work/BrandShaastra 11-11-21/GrowYourBusiness/app/src/main/res/layout/activity_update_business.xml" value="0.27291666666666664" />
+        <entry key="..\:/Harshil Work/BrandShaastra 11-11-21/GrowYourBusiness/app/src/main/res/layout/frame1.xml" value="0.27291666666666664" />
+        <entry key="..\:/Harshil Work/BrandShaastra/GrowYourBusiness/app/src/main/res/drawable/simple_curved_relative_5dp.xml" value="0.2574074074074074" />
+        <entry key="..\:/Harshil Work/BrandShaastra/GrowYourBusiness/app/src/main/res/layout/activity_package_purchase.xml" value="0.27291666666666664" />
+        <entry key="..\:/Harshil Work/BrandShaastra/GrowYourBusiness/app/src/main/res/layout/activity_subscription.xml" value="0.24954710144927536" />
+        <entry key="..\:/Harshil Work/BrandShaastra/GrowYourBusiness/app/src/main/res/layout/frame1.xml" value="0.18115942028985507" />
+        <entry key="..\:/Harshil Work/BrandShaastra/GrowYourBusiness/app/src/main/res/layout/frame10.xml" value="0.22192028985507245" />
+        <entry key="..\:/Harshil Work/BrandShaastra/GrowYourBusiness/app/src/main/res/layout/frame11.xml" value="0.22192028985507245" />
+        <entry key="..\:/Harshil Work/BrandShaastra/GrowYourBusiness/app/src/main/res/layout/frame12.xml" value="0.22192028985507245" />
+        <entry key="..\:/Harshil Work/BrandShaastra/GrowYourBusiness/app/src/main/res/layout/frame13.xml" value="0.22192028985507245" />
+        <entry key="..\:/Harshil Work/BrandShaastra/GrowYourBusiness/app/src/main/res/layout/frame14.xml" value="0.22192028985507245" />
+        <entry key="..\:/Harshil Work/BrandShaastra/GrowYourBusiness/app/src/main/res/layout/frame15.xml" value="0.22192028985507245" />
+        <entry key="..\:/Harshil Work/BrandShaastra/GrowYourBusiness/app/src/main/res/layout/frame16.xml" value="0.22192028985507245" />
+        <entry key="..\:/Harshil Work/BrandShaastra/GrowYourBusiness/app/src/main/res/layout/frame17.xml" value="0.22192028985507245" />
+        <entry key="..\:/Harshil Work/BrandShaastra/GrowYourBusiness/app/src/main/res/layout/frame18.xml" value="0.22192028985507245" />
+        <entry key="..\:/Harshil Work/BrandShaastra/GrowYourBusiness/app/src/main/res/layout/frame19.xml" value="0.22192028985507245" />
+        <entry key="..\:/Harshil Work/BrandShaastra/GrowYourBusiness/app/src/main/res/layout/frame2.xml" value="0.22192028985507245" />
+        <entry key="..\:/Harshil Work/BrandShaastra/GrowYourBusiness/app/src/main/res/layout/frame20.xml" value="0.22192028985507245" />
+        <entry key="..\:/Harshil Work/BrandShaastra/GrowYourBusiness/app/src/main/res/layout/frame21.xml" value="0.22192028985507245" />
+        <entry key="..\:/Harshil Work/BrandShaastra/GrowYourBusiness/app/src/main/res/layout/frame22.xml" value="0.22192028985507245" />
+        <entry key="..\:/Harshil Work/BrandShaastra/GrowYourBusiness/app/src/main/res/layout/frame23.xml" value="0.22192028985507245" />
+        <entry key="..\:/Harshil Work/BrandShaastra/GrowYourBusiness/app/src/main/res/layout/frame24.xml" value="0.22192028985507245" />
+        <entry key="..\:/Harshil Work/BrandShaastra/GrowYourBusiness/app/src/main/res/layout/frame25.xml" value="0.22192028985507245" />
+        <entry key="..\:/Harshil Work/BrandShaastra/GrowYourBusiness/app/src/main/res/layout/frame26.xml" value="0.22192028985507245" />
+        <entry key="..\:/Harshil Work/BrandShaastra/GrowYourBusiness/app/src/main/res/layout/frame27.xml" value="0.22192028985507245" />
+        <entry key="..\:/Harshil Work/BrandShaastra/GrowYourBusiness/app/src/main/res/layout/frame28.xml" value="0.22192028985507245" />
+        <entry key="..\:/Harshil Work/BrandShaastra/GrowYourBusiness/app/src/main/res/layout/frame3.xml" value="0.22192028985507245" />
+        <entry key="..\:/Harshil Work/BrandShaastra/GrowYourBusiness/app/src/main/res/layout/frame4.xml" value="0.22192028985507245" />
+        <entry key="..\:/Harshil Work/BrandShaastra/GrowYourBusiness/app/src/main/res/layout/frame5.xml" value="0.22192028985507245" />
+        <entry key="..\:/Harshil Work/BrandShaastra/GrowYourBusiness/app/src/main/res/layout/frame6.xml" value="0.22192028985507245" />
+        <entry key="..\:/Harshil Work/BrandShaastra/GrowYourBusiness/app/src/main/res/layout/frame7.xml" value="0.22192028985507245" />
+        <entry key="..\:/Harshil Work/BrandShaastra/GrowYourBusiness/app/src/main/res/layout/frame8.xml" value="0.22192028985507245" />
+        <entry key="..\:/Harshil Work/BrandShaastra/GrowYourBusiness/app/src/main/res/layout/frame9.xml" value="0.22192028985507245" />
+        <entry key="..\:/Users/BAPS/Downloads/GrowYourBusiness/GrowYourBusiness/app/src/main/res/drawable/custom_card_relative_background.xml" value="0.2203125" />
+        <entry key="..\:/Users/BAPS/Downloads/GrowYourBusiness/GrowYourBusiness/app/src/main/res/drawable/rounded_corner_edittext_bg.xml" value="0.2203125" />
+        <entry key="..\:/Users/BAPS/Downloads/GrowYourBusiness/GrowYourBusiness/app/src/main/res/layout/activity_business_document.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/BAPS/Downloads/GrowYourBusiness/GrowYourBusiness/app/src/main/res/layout/activity_check_signin.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/BAPS/Downloads/GrowYourBusiness/GrowYourBusiness/app/src/main/res/layout/activity_otp.xml" value="0.1925925925925926" />
+        <entry key="..\:/Users/BAPS/Downloads/GrowYourBusiness/GrowYourBusiness/app/src/main/res/layout/bottomsheet_dialog_layout.xml" value="0.1925925925925926" />
+        <entry key="..\:/Users/BAPS/Downloads/GrowYourBusiness22-10/GrowYourBusiness/app/src/main/res/drawable/frame24_1.xml" value="0.21481481481481482" />
+        <entry key="..\:/Users/BAPS/Downloads/GrowYourBusiness22-10/GrowYourBusiness/app/src/main/res/drawable/frame25_2.xml" value="0.21481481481481482" />
+        <entry key="..\:/Users/BAPS/Downloads/GrowYourBusiness22-10/GrowYourBusiness/app/src/main/res/drawable/frame26_2.xml" value="0.21481481481481482" />
+        <entry key="..\:/Users/BAPS/Downloads/GrowYourBusiness22-10/GrowYourBusiness/app/src/main/res/drawable/frame27_1.xml" value="0.21481481481481482" />
+        <entry key="..\:/Users/BAPS/Downloads/GrowYourBusiness22-10/GrowYourBusiness/app/src/main/res/drawable/frame27_2.xml" value="0.21481481481481482" />
+        <entry key="..\:/Users/BAPS/Downloads/GrowYourBusiness22-10/GrowYourBusiness/app/src/main/res/drawable/frame28_2.xml" value="0.21481481481481482" />
+        <entry key="..\:/Users/BAPS/Downloads/GrowYourBusiness22-10/GrowYourBusiness/app/src/main/res/drawable/ic_call.xml" value="0.21481481481481482" />
+        <entry key="..\:/Users/BAPS/Downloads/GrowYourBusiness22-10/GrowYourBusiness/app/src/main/res/drawable/ic_user_placeholder.xml" value="0.21481481481481482" />
+        <entry key="..\:/Users/BAPS/Downloads/GrowYourBusiness22-10/GrowYourBusiness/app/src/main/res/layout/activity_check_signin.xml" value="0.1" />
+        <entry key="..\:/Users/BAPS/Downloads/GrowYourBusiness22-10/GrowYourBusiness/app/src/main/res/layout/activity_image_canvas.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/BAPS/Downloads/GrowYourBusiness22-10/GrowYourBusiness/app/src/main/res/layout/activity_otp.xml" value="0.1" />
+        <entry key="..\:/Users/BAPS/Downloads/GrowYourBusiness22-10/GrowYourBusiness/app/src/main/res/layout/frame1.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/BAPS/Downloads/GrowYourBusiness22-10/GrowYourBusiness/app/src/main/res/layout/frame19.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/BAPS/Downloads/GrowYourBusiness22-10/GrowYourBusiness/app/src/main/res/layout/frame20.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/BAPS/Downloads/GrowYourBusiness22-10/GrowYourBusiness/app/src/main/res/layout/frame22.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/BAPS/Downloads/GrowYourBusiness22-10/GrowYourBusiness/app/src/main/res/layout/frame23.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/BAPS/Downloads/GrowYourBusiness22-10/GrowYourBusiness/app/src/main/res/layout/frame24.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/BAPS/Downloads/GrowYourBusiness22-10/GrowYourBusiness/app/src/main/res/layout/frame25.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/BAPS/Downloads/GrowYourBusiness22-10/GrowYourBusiness/app/src/main/res/layout/frame26.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/BAPS/Downloads/GrowYourBusiness22-10/GrowYourBusiness/app/src/main/res/layout/frame27.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/BAPS/Downloads/GrowYourBusiness22-10/GrowYourBusiness/app/src/main/res/layout/frame28.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/BAPS/Downloads/brandshaastra_25-10-2021/GrowYourBusiness/app/src/main/res/drawable/circuler_image_bg.xml" value="0.2203125" />
+        <entry key="..\:/Users/BAPS/Downloads/brandshaastra_25-10-2021/GrowYourBusiness/app/src/main/res/drawable/frame24_1.xml" value="0.2203125" />
+        <entry key="..\:/Users/BAPS/Downloads/brandshaastra_25-10-2021/GrowYourBusiness/app/src/main/res/drawable/frame24_2.xml" value="0.2203125" />
+        <entry key="..\:/Users/BAPS/Downloads/brandshaastra_25-10-2021/GrowYourBusiness/app/src/main/res/drawable/frame25_2.xml" value="0.2203125" />
+        <entry key="..\:/Users/BAPS/Downloads/brandshaastra_25-10-2021/GrowYourBusiness/app/src/main/res/drawable/frame26_2.xml" value="0.2203125" />
+        <entry key="..\:/Users/BAPS/Downloads/brandshaastra_25-10-2021/GrowYourBusiness/app/src/main/res/drawable/frame26_4.xml" value="0.2203125" />
+        <entry key="..\:/Users/BAPS/Downloads/brandshaastra_25-10-2021/GrowYourBusiness/app/src/main/res/drawable/ic_baseline_location_on_24.xml" value="0.2203125" />
+        <entry key="..\:/Users/BAPS/Downloads/brandshaastra_25-10-2021/GrowYourBusiness/app/src/main/res/drawable/ic_call.xml" value="0.2203125" />
+        <entry key="..\:/Users/BAPS/Downloads/brandshaastra_25-10-2021/GrowYourBusiness/app/src/main/res/drawable/ic_fifth_frame_location.xml" value="0.2203125" />
+        <entry key="..\:/Users/BAPS/Downloads/brandshaastra_25-10-2021/GrowYourBusiness/app/src/main/res/drawable/ic_forth_frame_location.xml" value="0.2203125" />
+        <entry key="..\:/Users/BAPS/Downloads/brandshaastra_25-10-2021/GrowYourBusiness/app/src/main/res/drawable/ic_frame_25_icon_bg.xml" value="0.2203125" />
+        <entry key="..\:/Users/BAPS/Downloads/brandshaastra_25-10-2021/GrowYourBusiness/app/src/main/res/drawable/ic_left_bottom_bg.xml" value="0.215625" />
+        <entry key="..\:/Users/BAPS/Downloads/brandshaastra_25-10-2021/GrowYourBusiness/app/src/main/res/drawable/ic_location.xml" value="0.2203125" />
+        <entry key="..\:/Users/BAPS/Downloads/brandshaastra_25-10-2021/GrowYourBusiness/app/src/main/res/drawable/ic_location_2955.xml" value="0.2203125" />
+        <entry key="..\:/Users/BAPS/Downloads/brandshaastra_25-10-2021/GrowYourBusiness/app/src/main/res/drawable/ic_mail.xml" value="0.2203125" />
+        <entry key="..\:/Users/BAPS/Downloads/brandshaastra_25-10-2021/GrowYourBusiness/app/src/main/res/drawable/ic_mail_2569.xml" value="0.2203125" />
+        <entry key="..\:/Users/BAPS/Downloads/brandshaastra_25-10-2021/GrowYourBusiness/app/src/main/res/drawable/ic_pink_mail_28.xml" value="0.2203125" />
+        <entry key="..\:/Users/BAPS/Downloads/brandshaastra_25-10-2021/GrowYourBusiness/app/src/main/res/drawable/ic_sixth_frame_bg.xml" value="0.2203125" />
+        <entry key="..\:/Users/BAPS/Downloads/brandshaastra_25-10-2021/GrowYourBusiness/app/src/main/res/drawable/ic_website.xml" value="0.2203125" />
+        <entry key="..\:/Users/BAPS/Downloads/brandshaastra_25-10-2021/GrowYourBusiness/app/src/main/res/drawable/upload_img_btn.xml" value="0.2203125" />
+        <entry key="..\:/Users/BAPS/Downloads/brandshaastra_25-10-2021/GrowYourBusiness/app/src/main/res/drawable/white_location_icon.xml" value="0.2203125" />
+        <entry key="..\:/Users/BAPS/Downloads/brandshaastra_25-10-2021/GrowYourBusiness/app/src/main/res/layout/activity_image_canvas.xml" value="0.18" />
+        <entry key="..\:/Users/BAPS/Downloads/brandshaastra_25-10-2021/GrowYourBusiness/app/src/main/res/layout/activity_otp.xml" value="0.11367753623188406" />
+        <entry key="..\:/Users/BAPS/Downloads/brandshaastra_25-10-2021/GrowYourBusiness/app/src/main/res/layout/activity_package_purchase.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/BAPS/Downloads/brandshaastra_25-10-2021/GrowYourBusiness/app/src/main/res/layout/activity_permission.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/BAPS/Downloads/brandshaastra_25-10-2021/GrowYourBusiness/app/src/main/res/layout/activity_sign_up.xml" value="0.11141304347826086" />
+        <entry key="..\:/Users/BAPS/Downloads/brandshaastra_25-10-2021/GrowYourBusiness/app/src/main/res/layout/frame1.xml" value="0.5" />
+        <entry key="..\:/Users/BAPS/Downloads/brandshaastra_25-10-2021/GrowYourBusiness/app/src/main/res/layout/frame10.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/BAPS/Downloads/brandshaastra_25-10-2021/GrowYourBusiness/app/src/main/res/layout/frame11.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/BAPS/Downloads/brandshaastra_25-10-2021/GrowYourBusiness/app/src/main/res/layout/frame12.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/BAPS/Downloads/brandshaastra_25-10-2021/GrowYourBusiness/app/src/main/res/layout/frame13.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/BAPS/Downloads/brandshaastra_25-10-2021/GrowYourBusiness/app/src/main/res/layout/frame14.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/BAPS/Downloads/brandshaastra_25-10-2021/GrowYourBusiness/app/src/main/res/layout/frame15.xml" value="0.19947916666666668" />
+        <entry key="..\:/Users/BAPS/Downloads/brandshaastra_25-10-2021/GrowYourBusiness/app/src/main/res/layout/frame16.xml" value="0.19947916666666668" />
+        <entry key="..\:/Users/BAPS/Downloads/brandshaastra_25-10-2021/GrowYourBusiness/app/src/main/res/layout/frame17.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/BAPS/Downloads/brandshaastra_25-10-2021/GrowYourBusiness/app/src/main/res/layout/frame18.xml" value="0.19947916666666668" />
+        <entry key="..\:/Users/BAPS/Downloads/brandshaastra_25-10-2021/GrowYourBusiness/app/src/main/res/layout/frame19.xml" value="0.19947916666666668" />
+        <entry key="..\:/Users/BAPS/Downloads/brandshaastra_25-10-2021/GrowYourBusiness/app/src/main/res/layout/frame2.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/BAPS/Downloads/brandshaastra_25-10-2021/GrowYourBusiness/app/src/main/res/layout/frame20.xml" value="0.19947916666666668" />
+        <entry key="..\:/Users/BAPS/Downloads/brandshaastra_25-10-2021/GrowYourBusiness/app/src/main/res/layout/frame21.xml" value="0.34024896265560167" />
+        <entry key="..\:/Users/BAPS/Downloads/brandshaastra_25-10-2021/GrowYourBusiness/app/src/main/res/layout/frame22.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/BAPS/Downloads/brandshaastra_25-10-2021/GrowYourBusiness/app/src/main/res/layout/frame23.xml" value="0.18" />
+        <entry key="..\:/Users/BAPS/Downloads/brandshaastra_25-10-2021/GrowYourBusiness/app/src/main/res/layout/frame24.xml" value="0.22" />
+        <entry key="..\:/Users/BAPS/Downloads/brandshaastra_25-10-2021/GrowYourBusiness/app/src/main/res/layout/frame25.xml" value="0.26328800988875156" />
+        <entry key="..\:/Users/BAPS/Downloads/brandshaastra_25-10-2021/GrowYourBusiness/app/src/main/res/layout/frame26.xml" value="0.25" />
+        <entry key="..\:/Users/BAPS/Downloads/brandshaastra_25-10-2021/GrowYourBusiness/app/src/main/res/layout/frame27.xml" value="0.25" />
+        <entry key="..\:/Users/BAPS/Downloads/brandshaastra_25-10-2021/GrowYourBusiness/app/src/main/res/layout/frame28.xml" value="0.22" />
+        <entry key="..\:/Users/BAPS/Downloads/brandshaastra_25-10-2021/GrowYourBusiness/app/src/main/res/layout/frame3.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/BAPS/Downloads/brandshaastra_25-10-2021/GrowYourBusiness/app/src/main/res/layout/frame4.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/BAPS/Downloads/brandshaastra_25-10-2021/GrowYourBusiness/app/src/main/res/layout/frame5.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/BAPS/Downloads/brandshaastra_25-10-2021/GrowYourBusiness/app/src/main/res/layout/frame6.xml" value="0.25" />
+        <entry key="..\:/Users/BAPS/Downloads/brandshaastra_25-10-2021/GrowYourBusiness/app/src/main/res/layout/frame8.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/BAPS/Downloads/brandshaastra_25-10-2021/GrowYourBusiness/app/src/main/res/layout/frame9.xml" value="0.22" />
+        <entry key="..\:/Users/BAPS/Downloads/brandshaastra_25-10-2021/GrowYourBusiness/app/src/main/res/layout/image_canvas_recycler_layout.xml" value="0.1" />
+        <entry key="..\:/Users/BAPS/Downloads/brandshaastra_25-10-2021/GrowYourBusiness/app/src/main/res/layout/subcat_recycler_layout.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/BAPS/Downloads/brandshaastra_25-10-2021/GrowYourBusiness/app/src/main/res/layout/subscription_recycle_layout.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Shiv Kohti/Downloads/GrowYourBusiness_07-10-2021/GrowYourBusiness_06-10-2021/GrowYourBusiness/app/src/main/res/drawable/frame22_bg.xml" value="0.2203125" />
+        <entry key="..\:/Users/Shiv Kohti/Downloads/GrowYourBusiness_07-10-2021/GrowYourBusiness_06-10-2021/GrowYourBusiness/app/src/main/res/drawable/ic_baseline_location_on_24.xml" value="0.2203125" />
+        <entry key="..\:/Users/Shiv Kohti/Downloads/GrowYourBusiness_07-10-2021/GrowYourBusiness_06-10-2021/GrowYourBusiness/app/src/main/res/drawable/ic_frame20_bg_img.xml" value="0.2203125" />
+        <entry key="..\:/Users/Shiv Kohti/Downloads/GrowYourBusiness_07-10-2021/GrowYourBusiness_06-10-2021/GrowYourBusiness/app/src/main/res/drawable/ic_location.xml" value="0.2203125" />
+        <entry key="..\:/Users/Shiv Kohti/Downloads/GrowYourBusiness_07-10-2021/GrowYourBusiness_06-10-2021/GrowYourBusiness/app/src/main/res/drawable/white_location_icon.xml" value="0.2203125" />
+        <entry key="..\:/Users/Shiv Kohti/Downloads/GrowYourBusiness_07-10-2021/GrowYourBusiness_06-10-2021/GrowYourBusiness/app/src/main/res/layout/activity_image_canvas.xml" value="0.20102564102564102" />
+        <entry key="..\:/Users/Shiv Kohti/Downloads/GrowYourBusiness_07-10-2021/GrowYourBusiness_06-10-2021/GrowYourBusiness/app/src/main/res/layout/frame1.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Shiv Kohti/Downloads/GrowYourBusiness_07-10-2021/GrowYourBusiness_06-10-2021/GrowYourBusiness/app/src/main/res/layout/frame10.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Shiv Kohti/Downloads/GrowYourBusiness_07-10-2021/GrowYourBusiness_06-10-2021/GrowYourBusiness/app/src/main/res/layout/frame14.xml" value="0.20102564102564102" />
+        <entry key="..\:/Users/Shiv Kohti/Downloads/GrowYourBusiness_07-10-2021/GrowYourBusiness_06-10-2021/GrowYourBusiness/app/src/main/res/layout/frame15.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Shiv Kohti/Downloads/GrowYourBusiness_07-10-2021/GrowYourBusiness_06-10-2021/GrowYourBusiness/app/src/main/res/layout/frame16.xml" value="0.20102564102564102" />
+        <entry key="..\:/Users/Shiv Kohti/Downloads/GrowYourBusiness_07-10-2021/GrowYourBusiness_06-10-2021/GrowYourBusiness/app/src/main/res/layout/frame17.xml" value="0.20102564102564102" />
+        <entry key="..\:/Users/Shiv Kohti/Downloads/GrowYourBusiness_07-10-2021/GrowYourBusiness_06-10-2021/GrowYourBusiness/app/src/main/res/layout/frame18.xml" value="0.20102564102564102" />
+        <entry key="..\:/Users/Shiv Kohti/Downloads/GrowYourBusiness_07-10-2021/GrowYourBusiness_06-10-2021/GrowYourBusiness/app/src/main/res/layout/frame19.xml" value="0.25" />
+        <entry key="..\:/Users/Shiv Kohti/Downloads/GrowYourBusiness_07-10-2021/GrowYourBusiness_06-10-2021/GrowYourBusiness/app/src/main/res/layout/frame2.xml" value="0.20102564102564102" />
+        <entry key="..\:/Users/Shiv Kohti/Downloads/GrowYourBusiness_07-10-2021/GrowYourBusiness_06-10-2021/GrowYourBusiness/app/src/main/res/layout/frame20.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Shiv Kohti/Downloads/GrowYourBusiness_07-10-2021/GrowYourBusiness_06-10-2021/GrowYourBusiness/app/src/main/res/layout/frame21.xml" value="0.31971830985915495" />
+        <entry key="..\:/Users/Shiv Kohti/Downloads/GrowYourBusiness_07-10-2021/GrowYourBusiness_06-10-2021/GrowYourBusiness/app/src/main/res/layout/frame22.xml" value="0.2" />
+        <entry key="..\:/Users/Shiv Kohti/Downloads/GrowYourBusiness_07-10-2021/GrowYourBusiness_06-10-2021/GrowYourBusiness/app/src/main/res/layout/frame6.xml" value="0.20102564102564102" />
+        <entry key="..\:/Users/Shiv Kohti/Downloads/GrowYourBusiness_07-10-2021/GrowYourBusiness_06-10-2021/GrowYourBusiness/app/src/main/res/layout/frame7.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Shiv Kohti/Downloads/GrowYourBusiness_5-10-2021/GrowYourBusiness/app/src/main/res/layout/activity_home_screen.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Shiv Kohti/Downloads/GrowYourBusiness_5-10-2021/GrowYourBusiness/app/src/main/res/layout/activity_image_canvas.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/Shiv Kohti/Downloads/GrowYourBusiness_5-10-2021/GrowYourBusiness/app/src/main/res/layout/image_canvas_recycler_layout.xml" value="0.20416666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
